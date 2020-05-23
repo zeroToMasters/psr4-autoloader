@@ -1,0 +1,25 @@
+{
+    "name": "zerotomasters/psr4-autloader",
+    "description": "This repo contains an implementation od the PSR4 autoloader",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    },
+    "authors": [
+        {
+            "name": "Alejandro Estringana Ruiz",
+            "email": "alejandro@zerotomasters.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+          "ZeroToMasters\\Psr4Autoloader\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+           "ZertoToMasters\\Psr4Autoloader\\Tests\\": "tests/"
+        }
+    }
+}
